@@ -1,92 +1,125 @@
-import React from "react";
+import React from 'react';
 import {
   View,
   Text,
   StyleSheet,
-  ImageBackground,
   TouchableOpacity,
-} from "react-native";
+  Image,
+} from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
-export function Splash({ navigation }: any) {
+export default function Splash() {
+  const navigation = useNavigation<any>();
+
   return (
-    <ImageBackground
-      source={require("../../assets/6.png")} // ảnh nền
-      style={styles.container}
-      resizeMode="cover"
-    >
-      {/* Overlay làm tối ảnh */}
-      <View style={styles.overlay} />
+    <View style={styles.container}>
+            <Image
+              source={require('../../assets/icon1.png')} // icon của bạn
+              style={styles.icon}
+            />
+       
+      {/* title */}
+      <Text style={styles.title}>Bonsai ABC</Text>
 
-      {/* Nội dung */}
-      <View style={styles.content}>
-       <Text style={styles.title}>
-  Fall in Love with{"\n"}
-  Coffee in Blissful{"\n"}
-  Delight!
-</Text>
-<Text style={styles.subtitle}>
-  Welcome to our cozy coffee corner,{"\n"}
-  where every cup is a delightful experience.
-</Text>
-
-        <TouchableOpacity
-          style={styles.button}
-          onPress={() => navigation.replace("Home")}
-        >
-          <Text style={styles.buttonText}>Get Started</Text>
-        </TouchableOpacity>
+      {/* subtitle */}
+      <View style={styles.subRow}>
+        <View style={styles.line} />
+        <Text style={styles.subTitle}>
+          THE DIGITAL{'\n'}ARBORETUM
+        </Text>
+        <View style={styles.line} />
       </View>
-    </ImageBackground>
+
+      {/* button */}
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => navigation.navigate('Welcome')}
+      >
+        <Text style={styles.buttonText}>
+          GET STARTED
+        </Text>
+      </TouchableOpacity>
+
+      {/* bottom */}
+      <Text style={styles.bottomText}>
+        NURTURING YOUR SPACE
+      </Text>
+
+      {/* cây mờ */}
+    
+    </View>
   );
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "flex-end",
+    backgroundColor: '#F6FBF6',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 25,
   },
 
-  overlay: {
-    ...StyleSheet.absoluteFillObject,
-    backgroundColor: "rgba(0,0,0,0.1)",
+  icon: {
+    width: 200,
+    height: 200,
+
   },
 
-  content: {
-    padding: 25,
-    marginBottom: 30,
-  },
-bannerImg: {
-  width: 80,
-  height: 130, // theo tỉ lệ gốc
-  resizeMode: "contain",
-},
- title: {
-  color: "#fff",
-  fontSize: 30,
-  fontWeight: "bold",
-  textAlign: "center",
-  lineHeight: 40,
-  marginBottom: 10,
-},
 
-subtitle: {
-  color: "#ccc",
-  fontSize: 14,
-  textAlign: "center",
-  lineHeight: 20,
-  marginBottom: 25,
-},
+
+  title: {
+    marginTop: 38,
+    fontSize: 42,
+    fontWeight: '700',
+    color: '#173827',
+  },
+
+  subRow: {
+    marginTop: 18,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+
+  line: {
+    width: 42,
+    height: 1,
+    backgroundColor: '#D9D2C9',
+  },
+
+  subTitle: {
+    marginHorizontal: 12,
+    textAlign: 'center',
+    color: '#9B7E69',
+    fontSize: 12,
+    letterSpacing: 4,
+    lineHeight: 20,
+  },
 
   button: {
-    backgroundColor: "#c67c4e",
-    paddingVertical: 15,
-    borderRadius: 10,
-    alignItems: "center",
+    marginTop: 65,
+    width: 250,
+    height: 56,
+    borderRadius: 30,
+    backgroundColor: '#103C26',
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 5,
   },
 
   buttonText: {
-    color: "#fff",
-    fontWeight: "bold",
-    fontSize: 16,
-
+    color: '#fff',
+    fontSize: 12,
+    letterSpacing: 2,
+    fontWeight: '600',
   },
+
+  bottomText: {
+    marginTop: 45,
+    fontSize: 10,
+    color: '#9FA59D',
+    letterSpacing: 1,
+  },
+
+
 });

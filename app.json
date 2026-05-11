@@ -7,21 +7,41 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+
     "scheme": "long",
+
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.long"
     },
+
     "android": {
+      "package": "com.long",
+
+      "softwareKeyboardLayoutMode": "pan",
+
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "long"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ],
+
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.long"
+      }
     },
+
     "web": {
       "favicon": "./assets/favicon.png"
     },
+
     "plugins": [
       "expo-asset",
       [
