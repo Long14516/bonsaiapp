@@ -174,56 +174,65 @@ Sau đó:
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/97603431-9031-419e-bfe5-339f75f4029c" />
 
 ---
-##Login
+## Login
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/d8cb5061-0c6f-4390-a516-b0f0c2bfc731" />
 
 ---
-##Register
+## Register
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/ba1b818c-1f42-4d3a-abbd-944885d986ab" />
 
---
-
-##Home
+---
+## Home
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/ae8ed0d4-85cd-4323-805e-fb18332d2e23" />
 
 ---
-
 ## Giỏ hàng
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/4334da64-9e51-4bbd-800b-1d85a5c237fd" />
 
 ---
-
 ## Thanh Toán
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/2d73afe9-dd0d-4c7b-9728-aed459782509" />
 
 ---
-
-## Thành công
+## Thất Bại
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/204b287c-203d-406f-803e-5f0d2b959427" />
 
 ---
-
-## Thất Bại
+## Thành công
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/9b63ee43-b656-4479-ac13-23370f166b33" />
 
 ---
-
-##
+## Yêu thích
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/5d5d3583-0c95-489e-95cf-91227e93890c" />
 
+---
+## Thông Báo
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/8e212341-0712-4063-b344-a41bf8de00e8" />
 
+---
+## Profile
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/1a0e118a-4e6c-4e38-b488-375b11b0fae1" />
 
+---
+## Chi tiết đơn mua
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/ac2e8387-07b1-4ea9-b8b4-a1aff0e386de" />
 
+---
+## Đổi mật khẩu
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/3f39b177-cc83-4bbe-a760-c426a061bc4f" />
 
+---
+## Chỉnh sửa profile
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/693a39bd-1904-4637-be6a-e13f09c5b88e" />
 
+---
+## Tìm Kiếm
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/7e092e33-0e35-4406-b3bd-f45af992dc5e" />
 
-<img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/09655964-9d24-4a6c-bc53-5461697143e4" />
+---
+## Chi tiết đơn mua
+<img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/6d26fccf-f9b1-4e32-8f3f-4babdfe58326" />
+
 
 
 
