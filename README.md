@@ -47,7 +47,7 @@ Ngô Hoàng Long - Đảm nhiệm hết mọi thứ
 ## Backend
 - ASP.NET Core Web API(Net 8.0)
 - Entity Framework Core
-
+- Ngrok (hỗ trợ chạy backend)
 ## Database
 - SQL Server
 
@@ -160,6 +160,7 @@ npm start
 Sau đó:
 - Mở ứng dụng Expo Go trên điện thoại
 - Quét QR code để chạy app
+- Lưu ý ở phần backend,có phần payment controller link return về e để theo ip v4 của mạng nên ko cố định được nên phải sửa link đó theo ip v4 của mạng
 
 # Hình ảnh minh họa
 ## Loading
