@@ -162,18 +162,24 @@ Sau đó:
 - Quét QR code để chạy app
 
 # Hình ảnh minh họa
--- Loading
+## Loading
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/1410225f-9fb1-4ab9-9ea5-77e06747bacc" />
-
+ ---
+## Splash
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/03e66e38-bb3a-4037-886c-29c89a749ba0" />
-
+---
+## Welcome
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/97603431-9031-419e-bfe5-339f75f4029c" />
-
+---
+##Login
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/d8cb5061-0c6f-4390-a516-b0f0c2bfc731" />
-
+---
+##Register
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/ba1b818c-1f42-4d3a-abbd-944885d986ab" />
-
+--
+##Home
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/ae8ed0d4-85cd-4323-805e-fb18332d2e23" />
+---
 
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/4334da64-9e51-4bbd-800b-1d85a5c237fd" />
 
