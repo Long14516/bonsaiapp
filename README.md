@@ -41,23 +41,65 @@ Ngô Hoàng Long - Đảm nhiệm hết mọi thứ
 ## Frontend
 - React Native
 - Expo
-- React Navigation
-- Axios
+- JavaScript / TypeScript
 
 ## Backend
-- ASP.NET Core Web API(Net 8.0)
+- ASP.NET Core Web API
 - Entity Framework Core
-- Ngrok (hỗ trợ chạy backend)
+
 ## Database
 - SQL Server
 
 ## Công cụ hỗ trợ
-- Visual Studio Code (font end)
-- Visual Studio 2022 (Back-end)
+- Visual Studio Code
+- Visual Studio 2022
+- GitHub
 - Postman
-- Git & GitHub
+- Figma
+- Ngrok
 
 ---
+
+# 📚 Framework / Thư viện hỗ trợ
+
+| Thư viện / Framework | Chức năng |
+|---|---|
+| React Navigation | Điều hướng giữa các màn hình |
+| Axios | Gọi API từ frontend đến backend |
+| AsyncStorage | Lưu trữ dữ liệu cục bộ |
+| Expo Vector Icons | Hiển thị icon trong ứng dụng |
+| React Native Gesture Handler | Hỗ trợ thao tác vuốt/chạm |
+| React Native Reanimated | Hỗ trợ animation |
+| Entity Framework Core | Kết nối và thao tác database |
+| VNPay Sandbox | Thanh toán trực tuyến |
+
+---
+
+# 🏗️ Kiến trúc hệ thống
+
+Hệ thống được xây dựng theo mô hình Client - Server gồm 3 thành phần chính:
+
+## Frontend (Client)
+- Được phát triển bằng React Native và Expo.
+- Giao diện chạy trên thiết bị di động Android.
+- Người dùng thực hiện các thao tác như đăng nhập, xem sản phẩm, đặt hàng và thanh toán.
+
+## Backend (Server)
+- Được xây dựng bằng ASP.NET Core Web API.
+- Xử lý logic hệ thống, xác thực người dùng và quản lý dữ liệu.
+- Cung cấp API cho frontend thông qua giao thức HTTP.
+
+## Database
+- Sử dụng SQL Server để lưu trữ dữ liệu:
+  - Người dùng
+  - Sản phẩm
+  - Đơn hàng
+  - Thanh toán
+  - Yêu thích
+
+## Kết nối hệ thống
+- Frontend giao tiếp với Backend thông qua Axios API.
+- Ngrok được sử dụng để public localhost giúp ứng dụng mobile có thể truy cập API khi chạy bằng Expo Go.
 
 # 🛠️ Hướng dẫn cài đặt
 
