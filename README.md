@@ -167,6 +167,12 @@ Sau đó:
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/97603431-9031-419e-bfe5-339f75f4029c" />
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/d8cb5061-0c6f-4390-a516-b0f0c2bfc731" />
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/ba1b818c-1f42-4d3a-abbd-944885d986ab" />
+<img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/ae8ed0d4-85cd-4323-805e-fb18332d2e23" />
+<img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/4334da64-9e51-4bbd-800b-1d85a5c237fd" />
+<img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/2d73afe9-dd0d-4c7b-9728-aed459782509" />
+
+
+
 
 
 
